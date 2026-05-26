@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+logo-sem-fundo.png
+remove-bg.js
+make-logo.js
+*.jpeg
+*.jpg
