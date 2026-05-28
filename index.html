@@ -388,14 +388,10 @@
     .hero-stars{color:var(--gold);letter-spacing:.18em;font-size:1rem;}
     .hero-trust span{font-size:.82rem;color:var(--ink-soft);}
 
-    /* hero logo medallion */
-    .hero-logo{
-      position:relative;z-index:3;justify-self:center;
-      display:flex;flex-direction:column;align-items:center;gap:1.4rem;
-    }
+    /* hero logo */
     .logo-emblem{
       width:clamp(280px,38vw,520px);height:auto;display:block;
-      filter:drop-shadow(0 28px 56px rgba(201,162,39,.30)) drop-shadow(0 14px 30px rgba(201,122,140,.18));
+      position:relative;z-index:3;justify-self:center;
       opacity:0;
       animation:logoFadeIn 1.4s var(--ease) forwards .3s, float 7s ease-in-out infinite 1.7s;
     }
@@ -1036,7 +1032,7 @@
       .hero-copy{margin-inline:auto;}
       .hero .eyebrow{justify-content:center;}
       .hero-actions,.hero-trust{justify-content:center;}
-      .hero-logo{order:-1;margin-bottom:1rem;}
+      .logo-emblem{order:-1;margin-bottom:1rem;}
       .about-grid,.local-grid{grid-template-columns:1fr;}
       .about-visual{max-width:420px;margin-inline:auto;}
       .services-grid,.testi-grid,.why-grid{grid-template-columns:1fr;}
@@ -1133,7 +1129,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a href="#hero" class="brand" aria-label="Elieges Pertile — Fisioterapeuta Dermatofuncional">
-        <img class="brand-logo" src="logo-final.png" alt="Elieges Pertile — Fisioterapeuta Dermatofuncional" width="621" height="292" decoding="async">
+        <img class="brand-logo" src="logo-oficial.jpeg" alt="Elieges Pertile — Fisioterapeuta Dermatofuncional" width="621" height="292" decoding="async">
       </a>
 
       <nav class="nav-links" id="nav" aria-label="Navegação principal">
@@ -1184,11 +1180,10 @@
           </div>
         </div>
 
-        <div class="hero-logo">
-          <img class="logo-emblem" src="logo-final.png"
-               alt="Logo de Elieges Pertile — Fisioterapeuta Dermatofuncional"
-               width="621" height="292" decoding="async">
-        </div>
+        <img class="logo-emblem" src="logo-oficial.jpeg"
+             alt="Logo de Elieges Pertile — Fisioterapeuta Dermatofuncional"
+             width="621" height="292" decoding="async"
+             style="mix-blend-mode: multiply;">
       </div>
 
       <div class="scroll-cue" aria-hidden="true">
@@ -1597,7 +1592,7 @@
                     <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
                   </div>
                   <h3 class="price-title">Vibrocell</h3>
-                  <p class="price-sub">Vibração mecânica para celulite e flacidez localizada.</p>
+                  <p class="price-sub">Vibração mecânica para celulites e gordura localizada.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">80</span><span class="per">/região pacote</span></div>
                   <span class="price-flip-hint">Detalhes <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-9-9"/><polyline points="21 3 21 9 15 9"/></svg></span>
                 </div>
@@ -2012,7 +2007,7 @@
     <div class="wrap">
       <div class="footer-top">
         <div class="footer-brand">
-          <img class="footer-logo" src="logo-final.png" alt="Elieges Pertile — Fisioterapeuta Dermatofuncional" width="621" height="292" decoding="async" loading="lazy">
+          <img class="footer-logo" src="logo-oficial.jpeg" alt="Elieges Pertile — Fisioterapeuta Dermatofuncional" width="621" height="292" decoding="async" loading="lazy">
           <p>Estética e saúde da pele em Curitiba. Cuide da sua pele, celebre quem você é.</p>
         </div>
 

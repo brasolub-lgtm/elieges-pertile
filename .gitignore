@@ -5,3 +5,6 @@ remove-bg.js
 make-logo.js
 *.jpeg
 *.jpg
+!logo-oficial.jpeg
+
+.vercel
