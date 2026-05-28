@@ -6,5 +6,10 @@ make-logo.js
 *.jpeg
 *.jpg
 !logo-oficial.jpeg
+!img1.jpeg
+!img2.jpeg
+!img3.jpeg
+!img4.jpeg
+!img5.jpeg
 
 .vercel
