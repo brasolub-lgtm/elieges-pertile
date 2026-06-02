@@ -287,12 +287,19 @@
     .header-inner{display:flex;align-items:center;justify-content:space-between;}
     .brand{display:flex;align-items:center;}
     .brand-logo{
-      height:54px;width:auto;display:block;
+      height:70px;width:auto;display:block;
       transition:transform .5s var(--ease),height .4s var(--ease),filter .4s var(--ease);
-      filter:drop-shadow(0 4px 10px rgba(201,162,39,.18));
+      filter:saturate(1.3) contrast(1.05) drop-shadow(0 4px 10px rgba(201,162,39,.18));
     }
     .brand:hover .brand-logo{transform:scale(1.04);}
-    .site-header.shrink .brand-logo{height:44px;}
+    .site-header.shrink .brand-logo{height:57px;}
+    .brand-logo-2{
+      height:70px;width:auto;display:block;
+      object-fit:contain;
+      filter:saturate(1.3) contrast(1.05);
+      transition:height .4s var(--ease);
+    }
+    .site-header.shrink .brand-logo-2{height:57px;}
     .nav-links{display:flex;align-items:center;gap:2rem;}
     .nav-links a{
       font-size:.82rem;letter-spacing:.06em;font-weight:400;
@@ -1071,8 +1078,10 @@
       .about-visual{max-width:420px;margin-inline:auto;}
       .services-grid,.testi-grid,.why-grid{grid-template-columns:1fr;}
       .site-header{background:rgba(250,247,244,.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);}
-      .brand-logo{height:72px;}
-      .site-header.shrink .brand-logo{height:62px;}
+      .brand-logo{height:94px;}
+      .site-header.shrink .brand-logo{height:81px;}
+      .brand-logo-2{height:94px;}
+      .site-header.shrink .brand-logo-2{height:81px;}
       .stats-grid{grid-template-columns:repeat(2,1fr);gap:2.4rem 1rem;}
       .stat:nth-child(odd)::before,.stat+.stat::before{display:none;}
       .footer-top{grid-template-columns:1fr;gap:2.2rem;}
@@ -1367,6 +1376,7 @@
     <div class="wrap header-inner">
       <a href="#hero" class="brand" aria-label="Elieges Pertile — Fisioterapeuta Dermatofuncional">
         <img class="brand-logo" src="logo-semfundo.png" alt="Elieges Pertile — Fisioterapeuta Dermatofuncional" width="621" height="292" decoding="async">
+        <img class="brand-logo-2" src="logo-semfundo.png" alt="" width="621" height="292" decoding="async" aria-hidden="true">
       </a>
 
       <nav class="nav-links" id="nav" aria-label="Navegação principal">
