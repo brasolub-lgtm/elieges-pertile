@@ -1315,6 +1315,19 @@
     @media(max-width:768px){
       .hero-photo-wrap{width:min(80vw,320px);height:min(65vw,300px);}
     }
+
+    /* ============ PRICE CARD — FOTO NO TOPO ============ */
+    .price-card-wrap{height:420px;}
+    .price-face-img{
+      display:block;
+      width:calc(100% + 3.6rem);
+      height:200px;
+      object-fit:cover;
+      object-position:center;
+      margin:-2rem -1.8rem 1rem -1.8rem;
+      flex-shrink:0;
+    }
+    @media(max-width:720px){.price-card-wrap{height:auto;}}
   </style>
 </head>
 <body>
@@ -1728,9 +1741,7 @@
             <div class="price-card-wrap reveal" data-d="2" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><path d="M12 2v6M9 5h6"/><path d="M5 9h14v11H5z"/><path d="M9 14h6M12 11v6"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Drenagem%20Linf%C3%A1tica%20p%C3%B3s%20operat%C3%B3rio.jpeg" alt="Drenagem Pós-Operatório" loading="lazy" decoding="async">
                   <h3 class="price-title">Drenagem Pós-Operatório</h3>
                   <p class="price-sub">Acelera a recuperação e reduz edemas pós-cirúrgicos.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">120</span><span class="per">/sessão pacote</span></div>
@@ -1757,9 +1768,7 @@
             <div class="price-card-wrap reveal" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><path d="M12 21c-4-6-8-12-4-18 8 0 12 8 8 14"/><path d="M12 21l-2-8"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Massagem%20relaxante.jpeg" alt="Massagem Relaxante" loading="lazy" decoding="async">
                   <h3 class="price-title">Massagem Relaxante</h3>
                   <p class="price-sub">Alívio profundo de tensões e estresse do dia a dia.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">90</span><span class="per">/sessão pacote</span></div>
@@ -1790,9 +1799,7 @@
             <div class="price-card-wrap reveal" data-d="1" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><path d="M12 20.5C6 16.5 3 12.8 3 8.8 3 5.9 5.2 4 7.8 4c1.8 0 3.4 1 4.2 2.5C12.8 5 14.4 4 16.2 4 18.8 4 21 5.9 21 8.8c0 4-3 7.7-9 11.7z"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Massagem-terap%C3%AAutica.jpeg" alt="Massagem Terapêutica" loading="lazy" decoding="async">
                   <h3 class="price-title">Massagem Terapêutica</h3>
                   <p class="price-sub">Foco em dores específicas e equilíbrio muscular.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">100</span><span class="per">/sessão</span></div>
@@ -1819,9 +1826,7 @@
             <div class="price-card-wrap reveal" data-d="2" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Radiofrequ%C3%AAncia%20corporal.jpeg" alt="Radiofrequência Corporal" loading="lazy" decoding="async">
                   <h3 class="price-title">Radiofrequência Corporal</h3>
                   <p class="price-sub">Firmeza e estímulo ao colágeno por região.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">80</span><span class="per">/região pacote</span></div>
@@ -1848,9 +1853,7 @@
             <div class="price-card-wrap reveal" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Vibrocell.jpeg" alt="Vibrocell" loading="lazy" decoding="async">
                   <h3 class="price-title">Vibrocell</h3>
                   <p class="price-sub">Vibração mecânica para celulites e gordura localizada.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">80</span><span class="per">/região pacote</span></div>
@@ -1877,9 +1880,7 @@
             <div class="price-card-wrap reveal" data-d="1" data-cursor>
               <div class="price-card">
                 <div class="price-face">
-                  <div class="price-icon">
-                    <svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4L12 3z"/><path d="M18.5 14.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg>
-                  </div>
+                  <img class="price-face-img" src="Limpeza%20de%20pele%20costas.jpeg" alt="Limpeza de Pele (Costas)" loading="lazy" decoding="async">
                   <h3 class="price-title">Limpeza de Pele (Costas)</h3>
                   <p class="price-sub">Desobstrução profunda e renovação da pele das costas.</p>
                   <div class="price-tag"><span class="currency">R$</span><span class="value">150</span><span class="per">/sessão</span></div>
