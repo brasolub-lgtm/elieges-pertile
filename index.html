@@ -1339,16 +1339,16 @@
     .price-card-wrap{height:380px;}
     .price-svc-icon{
       width:90px;height:90px;
-      background:rgba(212,165,116,.12);
-      border-radius:16px;
-      display:flex;align-items:center;justify-content:center;
-      padding:10px;
+      background:transparent;
+      border-radius:12px;
       margin-bottom:12px;
       flex-shrink:0;
     }
     .price-face-img{
       width:100%;height:100%;
-      object-fit:contain;object-position:center;
+      object-fit:cover;object-position:center;
+      border-radius:12px;
+      box-shadow:0 4px 14px rgba(0,0,0,0.10);
       display:block;
     }
     @media(max-width:720px){.price-card-wrap{height:auto;}}
